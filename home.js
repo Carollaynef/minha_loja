@@ -2,11 +2,15 @@ const cards = document.querySelectorAll(".card");
 
 const observer = new IntersectionObserver((entries) => {
 
-    entries.forEach(entry => {
+    entries.forEach((entry, index) => {
 
         if (entry.isIntersecting) {
 
-            entry.target.classList.add("mostrar");
+            setTimeout(() => {
+
+                entry.target.classList.add("mostrar");
+
+            }, index * 180);
 
         }
 
@@ -14,8 +18,4 @@ const observer = new IntersectionObserver((entries) => {
 
 });
 
-cards.forEach(card => {
-
-    observer.observe(card);
-
-});
+cards.forEach(card => observer.observe(card));
