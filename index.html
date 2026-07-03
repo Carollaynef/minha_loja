@@ -4,27 +4,54 @@
 <head>
 
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>BC Studio | Elegance in every bead</title>
 
-    <!-- Fonte -->
+    <!-- Google Fonts -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="home.css">
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="css/home.css">
 
 </head>
 
 <body>
 
-    <!-- MENU -->
+    <!-- ===========================
+        LOADER
+=========================== -->
 
-    <header>
+    <div class="loader">
+
+        <div class="loader-logo">
+
+            <h1>BC Studio</h1>
+
+            <span>Elegance in every bead</span>
+
+        </div>
+
+    </div>
+
+    <!-- ===========================
+        HEADER
+=========================== -->
+
+    <header id="header">
 
         <div class="logo">
 
@@ -34,78 +61,206 @@
 
         </div>
 
-        <nav>
+        <nav id="menu">
 
-            <a href="#">Início</a>
+            <a href="#" class="active">Início</a>
 
-            <a href="#">Pulseiras</a>
+            <a href="pages/pulseiras.html">Pulseiras</a>
 
-            <a href="#">Terços</a>
+            <a href="pages/colares.html">Colares</a>
 
-            <a href="#">Colares</a>
+            <a href="pages/tercos.html">Terços</a>
 
-            <a href="#">Phone Straps</a>
+            <a href="pages/phone-straps.html">Phone Straps</a>
 
         </nav>
 
+        <div class="icons">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <i class="fa-regular fa-heart"></i>
+
+            <i class="fa-solid fa-bars" id="menu-btn"></i>
+
+        </div>
+
     </header>
 
-
-    <!-- HERO -->
+    <!-- ===========================
+            HERO
+=========================== -->
 
     <section class="hero">
 
-        <div class="overlay"></div>
+        <div class="hero-text">
 
-        <div class="hero-content">
+            <small>HANDMADE JEWELRY</small>
 
-            <h2>Every Detail<br>Reflects Elegance</h2>
+            <h2>
+
+                Elegance<br>
+
+                begins<br>
+
+                with details.
+
+            </h2>
 
             <p>
-                Descubra acessórios feitos artesanalmente para transformar
-                pequenos detalhes em grandes momentos.
+
+                Descubra peças artesanais produzidas com delicadeza,
+                elegância e personalidade.
+
             </p>
 
-            <button>Explorar Coleção</button>
+            <div class="hero-buttons">
+
+                <button class="btn-primary">
+
+                    Explorar Coleção
+
+                </button>
+
+                <button class="btn-secondary">
+
+                    Sobre Nós
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="imagens/banner/hero.png" alt="Hero">
 
         </div>
 
     </section>
 
+    <!-- ===========================
+        CATEGORIAS
+=========================== -->
 
-    <!-- DESTAQUES -->
+    <section class="categorias">
 
-    <section class="destaques">
+        <div class="section-title">
 
-        <div class="titulo">
+            <span>CATEGORIAS</span>
 
-            <small>COLEÇÃO</small>
+            <h2>Escolha sua coleção</h2>
+
+        </div>
+
+        <div class="categorias-grid">
+
+            <a href="pages/pulseiras.html" class="categoria">
+
+                <img src="imagens/pulseiras/categoria.jpg">
+
+                <div>
+
+                    <h3>Pulseiras</h3>
+
+                    <p>Ver coleção</p>
+
+                </div>
+
+            </a>
+
+            <a href="pages/colares.html" class="categoria">
+
+                <img src="imagens/colares/categoria.jpg">
+
+                <div>
+
+                    <h3>Colares</h3>
+
+                    <p>Ver coleção</p>
+
+                </div>
+
+            </a>
+
+            <a href="pages/tercos.html" class="categoria">
+
+                <img src="imagens/tercos/categoria.jpg">
+
+                <div>
+
+                    <h3>Terços</h3>
+
+                    <p>Ver coleção</p>
+
+                </div>
+
+            </a>
+
+            <a href="pages/phone-straps.html" class="categoria">
+
+                <img src="imagens/phone-straps/categoria.jpg">
+
+                <div>
+
+                    <h3>Phone Straps</h3>
+
+                    <p>Ver coleção</p>
+
+                </div>
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ===========================
+    PRODUTOS DESTAQUE
+=========================== -->
+
+    <section class="featured">
+
+        <div class="section-title">
+
+            <span>NOVIDADES</span>
 
             <h2>Destaques da Semana</h2>
 
         </div>
 
-        <div class="produtos">
+        <div class="products-grid">
 
-            <div class="card">
+            <!-- Produto 1 -->
 
-                <div class="imagem">
+            <div class="product-card">
 
-                    <img src="imagens/pulseira1.jpg">
+                <span class="tag">NOVO</span>
+
+                <button class="favorite">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+                <div class="product-image">
+
+                    <img src="imagens/pulseiras/pulseira1.jpg" alt="Pulseira Crystal">
 
                 </div>
 
-                <div class="conteudo">
+                <div class="product-info">
+
+                    <small>Pulseiras</small>
 
                     <h3>Pulseira Crystal</h3>
 
                     <p>Pérolas delicadas com acabamento premium.</p>
 
-                    <div class="rodape-card">
+                    <div class="price">
 
                         <span>R$ 34,90</span>
 
-                        <button>Ver</button>
+                        <button>Ver Produto</button>
 
                     </div>
 
@@ -113,26 +268,35 @@
 
             </div>
 
+            <!-- Produto 2 -->
 
-            <div class="card">
+            <div class="product-card">
 
-                <div class="imagem">
+                <span class="tag">POPULAR</span>
 
-                    <img src="imagens/colar1.jpg">
+                <button class="favorite">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+                <div class="product-image">
+
+                    <img src="imagens/colares/colar1.jpg" alt="Colar Butterfly">
 
                 </div>
 
-                <div class="conteudo">
+                <div class="product-info">
 
-                    <h3>Colar Butterfly</h3>
+                    <small>Colares</small>
 
-                    <p>Minimalismo para qualquer ocasião.</p>
+                    <h3>Butterfly Gold</h3>
 
-                    <div class="rodape-card">
+                    <p>Design delicado para qualquer ocasião.</p>
+
+                    <div class="price">
 
                         <span>R$ 49,90</span>
 
-                        <button>Ver</button>
+                        <button>Ver Produto</button>
 
                     </div>
 
@@ -140,26 +304,35 @@
 
             </div>
 
+            <!-- Produto 3 -->
 
-            <div class="card">
+            <div class="product-card">
 
-                <div class="imagem">
+                <span class="tag">EXCLUSIVO</span>
 
-                    <img src="imagens/terco1.jpg">
+                <button class="favorite">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+                <div class="product-image">
+
+                    <img src="imagens/tercos/terco1.jpg" alt="Terço Rosé">
 
                 </div>
 
-                <div class="conteudo">
+                <div class="product-info">
+
+                    <small>Terços</small>
 
                     <h3>Terço Rosé</h3>
 
-                    <p>Produzido artesanalmente.</p>
+                    <p>Produzido artesanalmente com muito carinho.</p>
 
-                    <div class="rodape-card">
+                    <div class="price">
 
                         <span>R$ 42,90</span>
 
-                        <button>Ver</button>
+                        <button>Ver Produto</button>
 
                     </div>
 
@@ -171,45 +344,153 @@
 
     </section>
 
+    <!-- ===========================
+        SOBRE
+=========================== -->
 
-    <!-- SOBRE -->
+    <section class="about">
 
-    <section class="sobre">
+        <div class="about-image">
 
-        <div class="texto">
+            <img src="imagens/banner/sobre.jpg" alt="BC Studio">
 
-            <small>BC STUDIO</small>
+        </div>
 
-            <h2>Elegância em cada detalhe.</h2>
+        <div class="about-text">
+
+            <span>BC STUDIO</span>
+
+            <h2>Elegance in every bead.</h2>
 
             <p>
 
-                Nossa missão é criar acessórios delicados que transmitam
-                personalidade, sofisticação e beleza através de peças feitas
-                com carinho.
+                A BC Studio nasceu da paixão por criar acessórios únicos,
+                delicados e elegantes. Cada peça é feita com dedicação,
+                buscando transmitir beleza em cada detalhe.
 
             </p>
+
+            <button class="btn-primary">
+
+                Conheça nossa história
+
+            </button>
 
         </div>
 
     </section>
 
+    <!-- ===========================
+        INSTAGRAM
+=========================== -->
 
-    <!-- RODAPÉ -->
+    <section class="instagram">
+
+        <div class="section-title">
+
+            <span>INSTAGRAM</span>
+
+            <h2>@BijusCarol04</h2>
+
+        </div>
+
+        <div class="instagram-grid">
+
+            <img src="imagens/banner/insta1.jpg" alt="">
+            <img src="imagens/banner/insta2.jpg" alt="">
+            <img src="imagens/banner/insta3.jpg" alt="">
+            <img src="imagens/banner/insta4.jpg" alt="">
+
+        </div>
+
+    </section>
+
+    <!-- ===========================
+        NEWSLETTER
+=========================== -->
+
+    <section class="newsletter">
+
+        <h2>Receba novidades</h2>
+
+        <p>
+
+            Seja a primeira pessoa a conhecer novas coleções,
+            promoções e lançamentos.
+
+        </p>
+
+        <form>
+
+            <input type="email" placeholder="Digite seu e-mail">
+
+            <button>
+
+                Inscrever-se
+
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- ===========================
+        BOTÃO TOPO
+=========================== -->
+
+    <button id="toTop">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+    <!-- ===========================
+        FOOTER
+=========================== -->
 
     <footer>
 
-        <h2>BC Studio</h2>
+        <div class="footer-logo">
 
-        <p>Elegance in every bead</p>
+            <h2>BC Studio</h2>
 
-        <div class="linha"></div>
+            <span>Elegance in every bead</span>
 
-        <p>@BijusCarol04</p>
+        </div>
+
+        <div class="footer-links">
+
+            <a href="#">Início</a>
+
+            <a href="#">Pulseiras</a>
+
+            <a href="#">Colares</a>
+
+            <a href="#">Terços</a>
+
+            <a href="#">Phone Straps</a>
+
+        </div>
+
+        <div class="footer-social">
+
+            <i class="fa-brands fa-instagram"></i>
+
+            <i class="fa-brands fa-whatsapp"></i>
+
+            <i class="fa-brands fa-pinterest"></i>
+
+        </div>
+
+        <p>
+
+            © 2026 BC Studio • Todos os direitos reservados.
+
+        </p>
 
     </footer>
 
-    <script src="home.js"></script>
+    <script src="js/home.js"></script>
 
 </body>
 
