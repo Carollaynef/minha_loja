@@ -2,63 +2,63 @@
     {
         "id": 1,
         "categoria": "pulseiras",
-        "nome": "Rosa Elegance",
-        "descricao": "Pulseira artesanal com cristais rosé.",
-        "preco": 59.90,
-        "imagem": "../imagens/produtos/pulseiras/pulseira1.jpg",
+        "nome": "Rosas Diversas",
+        "descricao": "Cada uma dessas custa o mesmo valor",
+        "preco": 6.00,
+        "imagem": "../imagens/pulseiras/rosas.jpg",
         "galeria": [
-            "../imagens/produtos/pulseiras/pulseira1.jpg"
+            "../imagens/pulseiras/rosas.jpg"
         ],
-        "material": "Cristais",
-        "cor": "Rosé",
+        "material": "Miçangas rosas diversas e brancas",
+        "cor": "Rosa e branca",
         "avaliacao": 5,
-        "novo": true,
+        "novo": false,
         "codigo": "P001"
     },
 
     {
         "id": 2,
         "categoria": "pulseiras",
-        "nome": "Crystal Shine",
-        "descricao": "Pulseira delicada com brilho intenso.",
-        "preco": 74.90,
-        "imagem": "../imagens/produtos/pulseiras/pulseira2.jpg",
+        "nome": "Coleção Copa",
+        "descricao": "O acessório perfeito para gritar GOOL DO BRASIL e vibrar muito!",
+        "preco": 7.00,
+        "imagem": "../imagens/pulseiras/copa5.jpg",
         "galeria": [
-            "../imagens/produtos/pulseiras/pulseira2.jpg"
+            "../imagens/pulseiras/copa5.jpg"
         ],
-        "material": "Cristal",
-        "cor": "Branco",
+        "material": "Cristal e miçangas",
+        "cor": "Amarelo, azul e verde",
         "avaliacao": 5,
-        "novo": false,
+        "novo": true,
         "codigo": "P002"
     },
 
     {
         "id": 3,
         "categoria": "pulseiras",
-        "nome": "Love Charm",
-        "descricao": "Pulseira com pingente de coração.",
-        "preco": 49.90,
-        "imagem": "../imagens/produtos/pulseiras/pulseira3.jpg",
+        "nome": "A história de Jesus",
+        "descricao": "Pensada na tragetória de Jesus Cristo, do nascimento até a sua ressureição",
+        "preco": 12.50,
+        "imagem": "../imagens/pulseiras/jesus.jpg",
         "galeria": [
-            "../imagens/produtos/pulseiras/pulseira3.jpg"
+            "../imagens/pulseiras/jesus.jpg"
         ],
         "material": "Miçangas",
-        "cor": "Rosa",
-        "avaliacao": 4.8,
-        "novo": true,
+        "cor": "Branca",
+        "avaliacao": 5,
+        "novo": false,
         "codigo": "P003"
     },
 
     {
         "id": 4,
         "categoria": "pulseiras",
-        "nome": "Rose Gold",
-        "descricao": "Pulseira sofisticada em tom rosé.",
-        "preco": 69.90,
-        "imagem": "../imagens/produtos/pulseiras/pulseira4.jpg",
+        "nome": "Coleção Copa",
+        "descricao": "O acessório perfeito para gritar GOOL DO BRASIL e vibrar muito!",
+        "preco": 6.40,
+        "imagem": "../imagens/pulseiras/copa3.jpg",
         "galeria": [
-            "../imagens/produtos/pulseiras/pulseira4.jpg"
+            "../imagens/pulseiras/copa3.jpg"
         ],
         "material": "Metal",
         "cor": "Rosé Gold",
@@ -73,9 +73,9 @@
         "nome": "Aurora",
         "descricao": "Pulseira delicada com cristais coloridos.",
         "preco": 54.90,
-        "imagem": "../imagens/produtos/pulseiras/pulseira5.jpg",
+        "imagem": "../imagens/pulseiras/pulseira5.jpg",
         "galeria": [
-            "../imagens/produtos/pulseiras/pulseira5.jpg"
+            "../imagens/pulseiras/pulseira5.jpg"
         ],
         "material": "Cristais",
         "cor": "Colorido",
@@ -90,9 +90,9 @@
         "nome": "Crystal Necklace",
         "descricao": "Colar delicado com cristal.",
         "preco": 89.90,
-        "imagem": "../imagens/produtos/colares/colar1.jpg",
+        "imagem": "../imagens/colares/colar1.jpg",
         "galeria": [
-            "../imagens/produtos/colares/colar1.jpg"
+            "../imagens/colares/colar1.jpg"
         ],
         "material": "Cristal",
         "cor": "Prata",
@@ -107,9 +107,9 @@
         "nome": "Butterfly",
         "descricao": "Colar com pingente de borboleta.",
         "preco": 79.90,
-        "imagem": "../imagens/produtos/colares/colar2.jpg",
+        "imagem": "../imagens/colares/colar2.jpg",
         "galeria": [
-            "../imagens/produtos/colares/colar2.jpg"
+            "../imagens/colares/colar2.jpg"
         ],
         "material": "Liga metálica",
         "cor": "Dourado",
@@ -124,9 +124,9 @@
         "nome": "Heart",
         "descricao": "Colar com pingente de coração.",
         "preco": 69.90,
-        "imagem": "../imagens/produtos/colares/colar3.jpg",
+        "imagem": "../imagens/colares/colar3.jpg",
         "galeria": [
-            "../imagens/produtos/colares/colar3.jpg"
+            "../imagens/colares/colar3.jpg"
         ],
         "material": "Aço",
         "cor": "Rosé",
@@ -141,9 +141,9 @@
         "nome": "Moon",
         "descricao": "Colar inspirado na lua.",
         "preco": 84.90,
-        "imagem": "../imagens/produtos/colares/colar4.jpg",
+        "imagem": "../imagens/colares/colar4.jpg",
         "galeria": [
-            "../imagens/produtos/colares/colar4.jpg"
+            "../imagens/colares/colar4.jpg"
         ],
         "material": "Prata",
         "cor": "Prata",
@@ -158,9 +158,9 @@
         "nome": "Pearl",
         "descricao": "Colar elegante com pérolas.",
         "preco": 99.90,
-        "imagem": "../imagens/produtos/colares/colar5.jpg",
+        "imagem": "../imagens/colares/colar5.jpg",
         "galeria": [
-            "../imagens/produtos/colares/colar5.jpg"
+            "../imagens/colares/colar5.jpg"
         ],
         "material": "Pérolas",
         "cor": "Branco",
@@ -175,9 +175,9 @@
         "nome": "Terço Rosé",
         "descricao": "Terço artesanal em tons rosé.",
         "preco": 79.90,
-        "imagem": "../imagens/produtos/tercos/terco1.jpg",
+        "imagem": "../imagens/tercos/terco1.jpg",
         "galeria": [
-            "../imagens/produtos/tercos/terco1.jpg"
+            "../imagens/tercos/terco1.jpg"
         ],
         "material": "Cristais",
         "cor": "Rosé",
@@ -191,9 +191,9 @@
         "nome": "Nossa Senhora",
         "descricao": "Terço com medalha de Nossa Senhora.",
         "preco": 94.90,
-        "imagem": "../imagens/produtos/tercos/terco2.jpg",
+        "imagem": "../imagens/tercos/terco2.jpg",
         "galeria": [
-            "../imagens/produtos/tercos/terco2.jpg"
+            "../imagens/tercos/terco2.jpg"
         ],
         "material": "Metal",
         "cor": "Prata",
@@ -207,9 +207,9 @@
         "nome": "Pérola",
         "descricao": "Terço clássico com pérolas.",
         "preco": 89.90,
-        "imagem": "../imagens/produtos/tercos/terco3.jpg",
+        "imagem": "../imagens/tercos/terco3.jpg",
         "galeria": [
-            "../imagens/produtos/tercos/terco3.jpg"
+            "../imagens/tercos/terco3.jpg"
         ],
         "material": "Pérolas",
         "cor": "Branco",
@@ -223,9 +223,9 @@
         "nome": "Lux",
         "descricao": "Terço premium artesanal.",
         "preco": 109.90,
-        "imagem": "../imagens/produtos/tercos/terco4.jpg",
+        "imagem": "../imagens/tercos/terco4.jpg",
         "galeria": [
-            "../imagens/produtos/tercos/terco4.jpg"
+            "../imagens/tercos/terco4.jpg"
         ],
         "material": "Cristais",
         "cor": "Transparente",
@@ -239,9 +239,9 @@
         "nome": "Elegance",
         "descricao": "Terço sofisticado para presentear.",
         "preco": 99.90,
-        "imagem": "../imagens/produtos/tercos/terco5.jpg",
+        "imagem": "../imagens/tercos/terco5.jpg",
         "galeria": [
-            "../imagens/produtos/tercos/terco5.jpg"
+            "../imagens/tercos/terco5.jpg"
         ],
         "material": "Cristais",
         "cor": "Rosé",
@@ -255,9 +255,9 @@
         "nome": "Pink Pearl",
         "descricao": "Phone Strap delicado com pérolas.",
         "preco": 39.90,
-        "imagem": "../imagens/produtos/phone-straps/strap1.jpg",
+        "imagem": "../imagens/phone-straps/strap1.jpg",
         "galeria": [
-            "../imagens/produtos/phone-straps/strap1.jpg"
+            "../imagens/phone-straps/strap1.jpg"
         ],
         "material": "Pérolas",
         "cor": "Branco",
@@ -271,9 +271,9 @@
         "nome": "Butterfly Strap",
         "descricao": "Phone Strap com pingente de borboleta.",
         "preco": 44.90,
-        "imagem": "../imagens/produtos/phone-straps/strap2.jpg",
+        "imagem": "../imagens/phone-straps/strap2.jpg",
         "galeria": [
-            "../imagens/produtos/phone-straps/strap2.jpg"
+            "../imagens/phone-straps/strap2.jpg"
         ],
         "material": "Miçangas",
         "cor": "Rosa",
@@ -287,9 +287,9 @@
         "nome": "Crystal Chain",
         "descricao": "Phone Strap com cristais transparentes.",
         "preco": 49.90,
-        "imagem": "../imagens/produtos/phone-straps/strap3.jpg",
+        "imagem": "../imagens/phone-straps/strap3.jpg",
         "galeria": [
-            "../imagens/produtos/phone-straps/strap3.jpg"
+            "../imagens/phone-straps/strap3.jpg"
         ],
         "material": "Cristais",
         "cor": "Transparente",
@@ -303,9 +303,9 @@
         "nome": "Love Charm",
         "descricao": "Phone Strap romântico com coração.",
         "preco": 42.90,
-        "imagem": "../imagens/produtos/phone-straps/strap4.jpg",
+        "imagem": "../imagens/phone-straps/strap4.jpg",
         "galeria": [
-            "../imagens/produtos/phone-straps/strap4.jpg"
+            "../imagens/phone-straps/strap4.jpg"
         ],
         "material": "Acrílico",
         "cor": "Rosé",
@@ -319,9 +319,9 @@
         "nome": "BC Premium",
         "descricao": "Modelo premium exclusivo BC Studio.",
         "preco": 59.90,
-        "imagem": "../imagens/produtos/phone-straps/strap5.jpg",
+        "imagem": "../imagens/phone-straps/strap5.jpg",
         "galeria": [
-            "../imagens/produtos/phone-straps/strap5.jpg"
+            "../imagens/phone-straps/strap5.jpg"
         ],
         "material": "Cristais Premium",
         "cor": "Rosé",
