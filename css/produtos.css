@@ -1,0 +1,79 @@
+.favorite-btn {
+
+    position: absolute;
+
+    top: 15px;
+
+    right: 15px;
+
+    width: 42px;
+
+    height: 42px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    background: #ffffff10;
+
+    backdrop-filter: blur(8px);
+
+    transition: .3s;
+
+}
+
+.favorite-btn i {
+
+    color: #ffffff;
+
+    font-size: 18px;
+
+}
+
+.favorite-btn.active {
+
+    background: #ff2e74;
+
+}
+
+.favorite-btn.active i {
+
+    color: white;
+
+}
+
+.favorite-btn:hover {
+
+    transform: scale(1.1);
+
+}
+
+.favorite-btn.pulse {
+
+    animation: pulse .3s;
+
+}
+
+@keyframes pulse {
+
+    0% {
+
+        transform: scale(1);
+
+    }
+
+    50% {
+
+        transform: scale(1.25);
+
+    }
+
+    100% {
+
+        transform: scale(1);
+
+    }
+
+}

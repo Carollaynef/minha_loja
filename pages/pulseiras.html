@@ -10,47 +10,24 @@
     <title>Pulseiras | BC Studio</title>
 
     <!-- Google Fonts -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
         rel="stylesheet">
 
     <!-- Font Awesome -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
-    <!-- CSS -->
     <link rel="stylesheet" href="../css/produtos.css">
 
 </head>
 
-<body>
-
-    <!--========================
-
-        LOADER
-
-=========================-->
-
-    <div class="loader">
-
-        <div class="loader-logo">
-
-            <h1>BC Studio</h1>
-
-            <span>Elegance in every bead</span>
-
-        </div>
-
-    </div>
-
-    <!--========================
-
-        HEADER
-
-=========================-->
+<body data-category="pulseiras">
 
     <header id="header">
 
@@ -70,60 +47,43 @@
 
             <a href="../index.html">Início</a>
 
-            <a href="pulseiras.html" class="active">Pulseiras</a>
+            <a class="active" href="pulseiras.html">
 
-            <a href="colares.html">Colares</a>
+                Pulseiras
 
-            <a href="tercos.html">Terços</a>
+            </a>
 
-            <a href="phone-straps.html">Phone Straps</a>
+            <a href="colares.html">
+
+                Colares
+
+            </a>
+
+            <a href="tercos.html">
+
+                Terços
+
+            </a>
+
+            <a href="phone-straps.html">
+
+                Phone Straps
+
+            </a>
 
         </nav>
 
-        <div class="header-icons">
-
-            <button class="icon-btn">
-
-                <i class="fa-solid fa-magnifying-glass"></i>
-
-            </button>
-
-            <button class="icon-btn">
-
-                <i class="fa-regular fa-heart"></i>
-
-            </button>
-
-            <button class="icon-btn" id="menu-btn">
-
-                <i class="fa-solid fa-bars"></i>
-
-            </button>
-
-        </div>
-
     </header>
 
-    <!--========================
-
-        HERO
-
-=========================-->
-
-    <section class="page-banner">
-
-        <div class="overlay"></div>
+    <section class="banner">
 
         <div class="banner-content">
-
-            <small>BC STUDIO COLLECTION</small>
 
             <h1>Pulseiras</h1>
 
             <p>
 
-                Delicadeza, elegância e sofisticação para
-                transformar qualquer look.
+                Delicadeza para todos os momentos.
 
             </p>
 
@@ -131,515 +91,59 @@
 
     </section>
 
-    <!--========================
-
-        FILTROS
-
-=========================-->
-
     <section class="filters">
 
-        <div class="search-box">
+        <input id="searchInput" type="text" placeholder="Pesquisar produto...">
 
-            <i class="fa-solid fa-magnifying-glass"></i>
+        <select id="sortProducts">
 
-            <input type="text" placeholder="Pesquisar pulseiras...">
+            <option value="default">
 
-        </div>
+                Ordenar
 
-        <select>
+            </option>
 
-            <option>Ordenar por</option>
+            <option value="menor">
 
-            <option>Mais recentes</option>
+                Menor preço
 
-            <option>Menor preço</option>
+            </option>
 
-            <option>Maior preço</option>
+            <option value="maior">
 
-            <option>Mais vendidos</option>
+                Maior preço
 
-        </select>
+            </option>
 
-        <select>
+            <option value="nome">
 
-            <option>Categoria</option>
+                Nome
 
-            <option>Miçangas</option>
-
-            <option>Pedras Naturais</option>
-
-            <option>Cristais</option>
-
-            <option>Personalizadas</option>
+            </option>
 
         </select>
 
     </section>
-
-    <!--========================
-
-        PRODUTOS
-
-=========================-->
 
     <section class="products">
 
-        <div class="section-title">
-
-            <span>NOSSA COLEÇÃO</span>
-
-            <h2>Pulseiras em Destaque</h2>
-
-        </div>
-
-        <div class="products-grid">
-            <!-- Produto 1 -->
-
-            <article class="product-card">
-
-                <span class="tag">Novo</span>
-
-                <button class="favorite">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-
-                <div class="product-image">
-
-                    <img src="../imagens/produtos/pulseira1.jpg" alt="Pulseira Rosa Elegance">
-
-                </div>
-
-                <div class="product-info">
-
-                    <small>Pulseiras</small>
-
-                    <h3>Rosa Elegance</h3>
-
-                    <p>
-                        Pulseira artesanal com cristais e detalhes
-                        delicados em tons rosé.
-                    </p>
-
-                    <div class="stars">
-
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-
-                    </div>
-
-                    <div class="price">
-
-                        <span>R$ 59,90</span>
-
-                        <button>Ver Produto</button>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-
-            <!-- Produto 2 -->
-
-            <article class="product-card">
-
-                <span class="tag">Popular</span>
-
-                <button class="favorite">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-
-                <div class="product-image">
-
-                    <img src="../imagens/produtos/pulseira2.jpg" alt="Pulseira Pérola Lux">
-
-                </div>
-
-                <div class="product-info">
-
-                    <small>Pulseiras</small>
-
-                    <h3>Pérola Lux</h3>
-
-                    <p>
-                        Pérolas sintéticas premium com acabamento
-                        sofisticado.
-                    </p>
-
-                    <div class="stars">
-
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-
-                    </div>
-
-                    <div class="price">
-
-                        <span>R$ 64,90</span>
-
-                        <button>Ver Produto</button>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-
-            <!-- Produto 3 -->
-
-            <article class="product-card">
-
-                <span class="tag">Exclusivo</span>
-
-                <button class="favorite">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-
-                <div class="product-image">
-
-                    <img src="../imagens/produtos/pulseira3.jpg" alt="Pulseira Crystal Shine">
-
-                </div>
-
-                <div class="product-info">
-
-                    <small>Pulseiras</small>
-
-                    <h3>Crystal Shine</h3>
-
-                    <p>
-
-                        Cristais transparentes com brilho intenso
-                        para ocasiões especiais.
-
-                    </p>
-
-                    <div class="stars">
-
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-
-                    </div>
-
-                    <div class="price">
-
-                        <span>R$ 74,90</span>
-
-                        <button>Ver Produto</button>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-
-            <!-- Produto 4 -->
-
-            <article class="product-card">
-
-                <span class="tag">Mais Vendido</span>
-
-                <button class="favorite">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-
-                <div class="product-image">
-
-                    <img src="../imagens/produtos/pulseira4.jpg" alt="Pulseira Rose Gold">
-
-                </div>
-
-                <div class="product-info">
-
-                    <small>Pulseiras</small>
-
-                    <h3>Rose Gold</h3>
-
-                    <p>
-
-                        Delicada pulseira com detalhes metálicos
-                        em tom rosé gold.
-
-                    </p>
-
-                    <div class="stars">
-
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-
-                    </div>
-
-                    <div class="price">
-
-                        <span>R$ 69,90</span>
-
-                        <button>Ver Produto</button>
-
-                    </div>
-
-                </div>
-
-            </article>
-            <!-- Produto 5 -->
-
-            <article class="product-card">
-
-                <span class="tag">Novo</span>
-
-                <button class="favorite">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-
-                <div class="product-image">
-
-                    <img src="../imagens/produtos/pulseira5.jpg" alt="Pulseira Aurora">
-
-                </div>
-
-                <div class="product-info">
-
-                    <small>Pulseiras</small>
-
-                    <h3>Aurora</h3>
-
-                    <p>
-                        Cristais em tons rosados que combinam com qualquer ocasião.
-                    </p>
-
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-
-                    <div class="price">
-                        <span>R$ 54,90</span>
-                        <button>Ver Produto</button>
-                    </div>
-
-                </div>
-
-            </article>
-
-            <!-- Produto 6 -->
-
-            <article class="product-card">
-
-                <span class="tag">Exclusivo</span>
-
-                <button class="favorite">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-
-                <div class="product-image">
-
-                    <img src="../imagens/produtos/pulseira6.jpg" alt="Pulseira Infinity">
-
-                </div>
-
-                <div class="product-info">
-
-                    <small>Pulseiras</small>
-
-                    <h3>Infinity</h3>
-
-                    <p>
-                        Design minimalista inspirado na elegância contemporânea.
-                    </p>
-
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div>
-
-                    <div class="price">
-                        <span>R$ 79,90</span>
-                        <button>Ver Produto</button>
-                    </div>
-
-                </div>
-
-            </article>
-
-            <!-- Produto 7 -->
-
-            <article class="product-card">
-
-                <span class="tag">Popular</span>
-
-                <button class="favorite">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-
-                <div class="product-image">
-
-                    <img src="../imagens/produtos/pulseira7.jpg" alt="Pulseira Love">
-
-                </div>
-
-                <div class="product-info">
-
-                    <small>Pulseiras</small>
-
-                    <h3>Love</h3>
-
-                    <p>
-                        Miçangas delicadas e pingente em formato de coração.
-                    </p>
-
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-
-                    <div class="price">
-                        <span>R$ 49,90</span>
-                        <button>Ver Produto</button>
-                    </div>
-
-                </div>
-
-            </article>
-
-            <!-- Produto 8 -->
-
-            <article class="product-card">
-
-                <span class="tag">Premium</span>
-
-                <button class="favorite">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-
-                <div class="product-image">
-
-                    <img src="../imagens/produtos/pulseira8.jpg" alt="Pulseira Crystal Rose">
-
-                </div>
-
-                <div class="product-info">
-
-                    <small>Pulseiras</small>
-
-                    <h3>Crystal Rose</h3>
-
-                    <p>
-                        Uma peça sofisticada feita com cristais brilhantes e acabamento premium.
-                    </p>
-
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-
-                    <div class="price">
-                        <span>R$ 89,90</span>
-                        <button>Ver Produto</button>
-                    </div>
-
-                </div>
-
-            </article>
+        <div id="products-grid">
 
         </div>
 
     </section>
-
-    <!--========================
-
-        NEWSLETTER
-
-=========================-->
-
-    <section class="newsletter">
-
-        <h2>Receba Novidades</h2>
-
-        <p>
-            Seja a primeira pessoa a conhecer nossos lançamentos, promoções e novas coleções.
-        </p>
-
-        <form>
-
-            <input type="email" placeholder="Digite seu e-mail">
-
-            <button type="submit">
-                Inscrever-se
-            </button>
-
-        </form>
-
-    </section>
-
-    <!--========================
-
-        FOOTER
-
-=========================-->
 
     <footer>
 
-        <div class="footer-logo">
+        <h2>
 
-            <h2>BC Studio</h2>
+            BC Studio
 
-            <span>Elegance in every bead</span>
-
-        </div>
-
-        <div class="footer-links">
-
-            <a href="../index.html">Início</a>
-            <a href="pulseiras.html">Pulseiras</a>
-            <a href="colares.html">Colares</a>
-            <a href="tercos.html">Terços</a>
-            <a href="phone-straps.html">Phone Straps</a>
-
-        </div>
-
-        <div class="footer-social">
-
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-
-            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-
-            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-
-        </div>
+        </h2>
 
         <p>
 
-            © 2026 BC Studio • Todos os direitos reservados.
+            Elegance in every bead
 
         </p>
 
