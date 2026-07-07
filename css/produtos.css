@@ -2191,3 +2191,864 @@ footer {
     font-size: .9rem;
 
 }
+
+/*==========================================================
+
+                RESPONSIVIDADE
+
+==========================================================*/
+
+
+/*==========================================================
+
+                NOTEBOOKS (1200px)
+
+==========================================================*/
+
+@media (max-width:1200px) {
+
+    header {
+
+        padding: 0 5%;
+
+    }
+
+    .product-page {
+
+        gap: 40px;
+
+    }
+
+    .banner h1 {
+
+        font-size: 3.3rem;
+
+    }
+
+    .footer-content {
+
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+}
+
+
+/*==========================================================
+
+                TABLETS (992px)
+
+==========================================================*/
+
+@media (max-width:992px) {
+
+    nav {
+
+        gap: 20px;
+
+    }
+
+    .banner {
+
+        min-height: 280px;
+
+    }
+
+    .banner h1 {
+
+        font-size: 3rem;
+
+    }
+
+    .product-page {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .product-gallery {
+
+        order: 1;
+
+    }
+
+    .product-details {
+
+        order: 2;
+
+    }
+
+    .footer-content {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+
+/*==========================================================
+
+            TABLETS PEQUENOS (768px)
+
+==========================================================*/
+
+@media (max-width:768px) {
+
+    header {
+
+        height: 75px;
+
+    }
+
+    body {
+
+        padding-top: 75px;
+
+    }
+
+    nav {
+
+        position: fixed;
+
+        top: 75px;
+
+        right: -100%;
+
+        width: 280px;
+
+        height: calc(100vh - 75px);
+
+        background: #171717;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: flex-start;
+
+        align-items: flex-start;
+
+        padding: 40px;
+
+        gap: 25px;
+
+        transition: .4s;
+
+        border-left: 1px solid var(--border);
+
+    }
+
+    nav.active {
+
+        right: 0;
+
+    }
+
+    .menu-toggle {
+
+        display: flex;
+
+    }
+
+    .banner {
+
+        min-height: 240px;
+
+        padding: 30px;
+
+    }
+
+    .banner h1 {
+
+        font-size: 2.5rem;
+
+    }
+
+    .banner p {
+
+        font-size: .95rem;
+
+    }
+
+    .filters {
+
+        flex-direction: column;
+
+    }
+
+    .filters input {
+
+        width: 100%;
+
+    }
+
+    .filters select {
+
+        width: 100%;
+
+    }
+
+    #products-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 20px;
+
+    }
+
+    .image-box {
+
+        height: 240px;
+
+    }
+
+    .newsletter {
+
+        padding: 40px 25px;
+
+    }
+
+    .newsletter h2 {
+
+        font-size: 2.2rem;
+
+    }
+
+}
+
+
+/*==========================================================
+
+                CELULARES (576px)
+
+==========================================================*/
+
+@media (max-width:576px) {
+
+    .logo h1 {
+
+        font-size: 1.6rem;
+
+    }
+
+    .logo span {
+
+        font-size: .65rem;
+
+    }
+
+    .banner {
+
+        min-height: 220px;
+
+    }
+
+    .banner h1 {
+
+        font-size: 2rem;
+
+    }
+
+    .banner p {
+
+        font-size: .9rem;
+
+    }
+
+    #products-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .product-info {
+
+        padding: 22px;
+
+    }
+
+    .product-info h3 {
+
+        font-size: 1.7rem;
+
+    }
+
+    .price {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+    }
+
+    .btn-product {
+
+        width: 100%;
+
+    }
+
+    .buttons {
+
+        flex-direction: column;
+
+    }
+
+    .btn-primary,
+
+    .btn-secondary {
+
+        width: 100%;
+
+    }
+
+    .gallery-thumbs {
+
+        justify-content: center;
+
+    }
+
+    .gallery-thumbs img {
+
+        width: 70px;
+
+        height: 70px;
+
+    }
+
+    .related h2 {
+
+        font-size: 2rem;
+
+    }
+
+    .related-card img {
+
+        height: 220px;
+
+    }
+
+    .newsletter input {
+
+        min-width: 100%;
+
+    }
+
+    .newsletter button {
+
+        width: 100%;
+
+    }
+
+}
+
+
+/*==========================================================
+
+            CELULARES PEQUENOS (400px)
+
+==========================================================*/
+
+@media (max-width:400px) {
+
+    header {
+
+        padding: 0 20px;
+
+    }
+
+    .banner h1 {
+
+        font-size: 1.8rem;
+
+    }
+
+    .product-details h1 {
+
+        font-size: 2.3rem;
+
+    }
+
+    .product-details h2 {
+
+        font-size: 1.8rem;
+
+    }
+
+    .product-info p {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 8px;
+
+    }
+
+    .price span {
+
+        font-size: 1.2rem;
+
+    }
+
+}
+
+/*==========================================================
+
+                    PARTE 8
+        ANIMAÇÕES E ACABAMENTOS FINAIS
+
+==========================================================*/
+
+
+/*==========================================================
+
+                REVEAL ANIMATION
+
+==========================================================*/
+
+.reveal {
+
+    opacity: 0;
+
+    transform: translateY(60px);
+
+    transition: .8s ease;
+
+}
+
+.reveal.show {
+
+    opacity: 1;
+
+    transform: translateY(0);
+
+}
+
+
+/*==========================================================
+
+                LOADING
+
+==========================================================*/
+
+.loading {
+
+    width: 100%;
+
+    padding: 80px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.loading::after {
+
+    content: "";
+
+    width: 60px;
+
+    height: 60px;
+
+    border-radius: 50%;
+
+    border: 5px solid #333;
+
+    border-top-color: var(--pink);
+
+    animation: loading .9s linear infinite;
+
+}
+
+@keyframes loading {
+
+    to {
+
+        transform: rotate(360deg);
+
+    }
+
+}
+
+
+/*==========================================================
+
+                SKELETON
+
+==========================================================*/
+
+.skeleton {
+
+    position: relative;
+
+    overflow: hidden;
+
+    background: #242424;
+
+}
+
+.skeleton::before {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background: linear-gradient(90deg,
+
+            transparent,
+
+            rgba(255, 255, 255, .08),
+
+            transparent);
+
+    transform: translateX(-100%);
+
+    animation: skeleton 1.4s infinite;
+
+}
+
+@keyframes skeleton {
+
+    100% {
+
+        transform: translateX(100%);
+
+    }
+
+}
+
+
+/*==========================================================
+
+                IMAGENS
+
+==========================================================*/
+
+img {
+
+    transition: .45s;
+
+}
+
+img:hover {
+
+    filter: brightness(1.05);
+
+}
+
+
+/*==========================================================
+
+                BOTÕES
+
+==========================================================*/
+
+.btn-product,
+
+.btn-primary,
+
+.btn-secondary {
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+.btn-product::before,
+
+.btn-primary::before,
+
+.btn-secondary::before {
+
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+
+    left: -120%;
+
+    width: 60%;
+
+    height: 100%;
+
+    background: rgba(255, 255, 255, .18);
+
+    transform: skewX(-20deg);
+
+    transition: .6s;
+
+}
+
+.btn-product:hover::before,
+
+.btn-primary:hover::before,
+
+.btn-secondary:hover::before {
+
+    left: 140%;
+
+}
+
+
+/*==========================================================
+
+            SOMBRA SUAVE
+
+==========================================================*/
+
+.product-card,
+
+.related-card {
+
+    transition:
+
+        transform .35s,
+
+        box-shadow .35s,
+
+        border-color .35s;
+
+}
+
+
+/*==========================================================
+
+                IMAGEM DO PRODUTO
+
+==========================================================*/
+
+.product-gallery {
+
+    overflow: hidden;
+
+}
+
+.product-gallery img {
+
+    transform-origin: center;
+
+}
+
+
+/*==========================================================
+
+            FOCUS ACESSÍVEL
+
+==========================================================*/
+
+button:focus,
+
+a:focus,
+
+input:focus,
+
+select:focus {
+
+    outline: 3px solid rgba(214, 51, 132, .35);
+
+    outline-offset: 3px;
+
+}
+
+
+/*==========================================================
+
+            SCROLL TOP
+
+==========================================================*/
+
+.scroll-top {
+
+    position: fixed;
+
+    bottom: 25px;
+
+    right: 25px;
+
+    width: 55px;
+
+    height: 55px;
+
+    border-radius: 50%;
+
+    background: var(--pink);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: white;
+
+    font-size: 22px;
+
+    cursor: pointer;
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    transition: .35s;
+
+    z-index: 999;
+
+}
+
+.scroll-top.show {
+
+    opacity: 1;
+
+    visibility: visible;
+
+}
+
+.scroll-top:hover {
+
+    background: var(--pink-dark);
+
+    transform: translateY(-5px);
+
+}
+
+
+/*==========================================================
+
+                HOVER LINKS
+
+==========================================================*/
+
+footer a {
+
+    transition: .3s;
+
+}
+
+footer a:hover {
+
+    color: var(--pink-light);
+
+}
+
+
+/*==========================================================
+
+            FADE DOS CARDS
+
+==========================================================*/
+
+.product-card {
+
+    opacity: 0;
+
+    animation: cardFade .8s forwards;
+
+}
+
+@keyframes cardFade {
+
+    to {
+
+        opacity: 1;
+
+    }
+
+}
+
+
+/*==========================================================
+
+            DELAY DOS CARDS
+
+==========================================================*/
+
+.product-card:nth-child(1) {
+    animation-delay: .05s;
+}
+
+.product-card:nth-child(2) {
+    animation-delay: .10s;
+}
+
+.product-card:nth-child(3) {
+    animation-delay: .15s;
+}
+
+.product-card:nth-child(4) {
+    animation-delay: .20s;
+}
+
+.product-card:nth-child(5) {
+    animation-delay: .25s;
+}
+
+.product-card:nth-child(6) {
+    animation-delay: .30s;
+}
+
+.product-card:nth-child(7) {
+    animation-delay: .35s;
+}
+
+.product-card:nth-child(8) {
+    animation-delay: .40s;
+}
+
+.product-card:nth-child(9) {
+    animation-delay: .45s;
+}
+
+.product-card:nth-child(10) {
+    animation-delay: .50s;
+}
+
+
+/*==========================================================
+
+                GLASS EFFECT
+
+==========================================================*/
+
+.glass {
+
+    background: rgba(255, 255, 255, .05);
+
+    backdrop-filter: blur(15px);
+
+    border: 1px solid rgba(255, 255, 255, .08);
+
+}
+
+
+/*==========================================================
+
+                TRANSIÇÕES
+
+==========================================================*/
+
+* {
+
+    transition:
+
+        background-color .3s,
+
+        color .3s,
+
+        border-color .3s;
+
+}
+
+
+/*==========================================================
+
+                    FIM
+
+==========================================================*/
