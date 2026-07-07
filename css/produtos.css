@@ -1,58 +1,317 @@
-.favorite-btn {
+/*==========================================================
 
-    position: absolute;
+                    BC STUDIO
+                  PRODUTOS.CSS
 
-    top: 15px;
+==========================================================*/
 
-    right: 15px;
 
-    width: 42px;
+/*==========================================================
 
-    height: 42px;
+                    IMPORTAÇÃO
+
+==========================================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+/*==========================================================
+
+                    VARIÁVEIS
+
+==========================================================*/
+
+:root {
+
+    --background: #111111;
+
+    --background-secondary: #181818;
+
+    --background-card: #202020;
+
+    --background-hover: #2a2a2a;
+
+    --pink: #d63384;
+
+    --pink-light: #f062b0;
+
+    --pink-dark: #9c1f5c;
+
+    --white: #ffffff;
+
+    --gray: #d8d8d8;
+
+    --gray-dark: #999999;
+
+    --border: #323232;
+
+    --success: #28c76f;
+
+    --shadow: 0 10px 30px rgba(0, 0, 0, .35);
+
+    --radius: 20px;
+
+    --transition: .35s ease;
+
+    --max-width: 1400px;
+
+}
+
+
+/*==========================================================
+
+                    RESET
+
+==========================================================*/
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    background: var(--background);
+
+    color: var(--white);
+
+    font-family: 'Montserrat', sans-serif;
+
+    overflow-x: hidden;
+
+}
+
+
+/*==========================================================
+
+                    TIPOGRAFIA
+
+==========================================================*/
+
+h1,
+h2,
+h3,
+h4 {
+
+    font-family: 'Cormorant Garamond', serif;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+
+}
+
+p {
+
+    line-height: 1.8;
+
+    color: var(--gray);
+
+}
+
+small {
+
+    color: var(--pink-light);
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+
+}
+
+
+/*==========================================================
+
+                    LINKS
+
+==========================================================*/
+
+a {
+
+    text-decoration: none;
+
+    color: inherit;
+
+    transition: var(--transition);
+
+}
+
+img {
+
+    display: block;
+
+    width: 100%;
+
+}
+
+
+/*==========================================================
+
+                    LISTAS
+
+==========================================================*/
+
+ul {
+
+    list-style: none;
+
+}
+
+
+/*==========================================================
+
+                    BOTÕES
+
+==========================================================*/
+
+button {
 
     border: none;
 
-    border-radius: 50%;
+    outline: none;
 
     cursor: pointer;
 
-    background: #ffffff10;
+    font-family: inherit;
 
-    backdrop-filter: blur(8px);
-
-    transition: .3s;
+    transition: var(--transition);
 
 }
 
-.favorite-btn i {
 
-    color: #ffffff;
+/*==========================================================
 
-    font-size: 18px;
+                    INPUTS
+
+==========================================================*/
+
+input,
+select {
+
+    border: none;
+
+    outline: none;
+
+    font-family: inherit;
 
 }
 
-.favorite-btn.active {
 
-    background: #ff2e74;
+/*==========================================================
+
+                    CONTAINER
+
+==========================================================*/
+
+.container {
+
+    width: 90%;
+
+    max-width: var(--max-width);
+
+    margin: auto;
 
 }
 
-.favorite-btn.active i {
+
+/*==========================================================
+
+                    SCROLLBAR
+
+==========================================================*/
+
+::-webkit-scrollbar {
+
+    width: 10px;
+
+}
+
+::-webkit-scrollbar-track {
+
+    background: #151515;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: var(--pink);
+
+    border-radius: 20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+    background: var(--pink-light);
+
+}
+
+
+/*==========================================================
+
+                SELEÇÃO DE TEXTO
+
+==========================================================*/
+
+::selection {
+
+    background: var(--pink);
 
     color: white;
 
 }
 
-.favorite-btn:hover {
 
-    transform: scale(1.1);
+/*==========================================================
+
+                ANIMAÇÕES BASE
+
+==========================================================*/
+
+@keyframes fadeUp {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(40px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
 
 }
 
-.favorite-btn.pulse {
+@keyframes fade {
 
-    animation: pulse .3s;
+    from {
+
+        opacity: 0;
+
+    }
+
+    to {
+
+        opacity: 1;
+
+    }
 
 }
 
@@ -66,7 +325,7 @@
 
     50% {
 
-        transform: scale(1.25);
+        transform: scale(1.15);
 
     }
 
@@ -75,5 +334,1860 @@
         transform: scale(1);
 
     }
+
+}
+
+@keyframes float {
+
+    0% {
+
+        transform: translateY(0);
+
+    }
+
+    50% {
+
+        transform: translateY(-8px);
+
+    }
+
+    100% {
+
+        transform: translateY(0);
+
+    }
+
+}
+
+
+/*==========================================================
+
+                    UTILITÁRIOS
+
+==========================================================*/
+
+.hidden {
+
+    display: none;
+
+}
+
+.text-center {
+
+    text-align: center;
+
+}
+
+.mt-1 {
+
+    margin-top: 10px;
+
+}
+
+.mt-2 {
+
+    margin-top: 20px;
+
+}
+
+.mt-3 {
+
+    margin-top: 30px;
+
+}
+
+.mb-1 {
+
+    margin-bottom: 10px;
+
+}
+
+.mb-2 {
+
+    margin-bottom: 20px;
+
+}
+
+.mb-3 {
+
+    margin-bottom: 30px;
+
+}
+
+
+/*==========================================================
+
+            EFEITO DE APARECIMENTO
+
+==========================================================*/
+
+.fade-up {
+
+    animation: fadeUp .8s ease forwards;
+
+}
+
+.fade {
+
+    animation: fade .6s ease forwards;
+
+}
+
+/*==========================================================
+
+                        HEADER
+
+==========================================================*/
+
+header {
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 90px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 7%;
+
+    z-index: 1000;
+
+    background: rgba(17, 17, 17, .75);
+
+    backdrop-filter: blur(18px);
+
+    border-bottom: 1px solid rgba(255, 255, 255, .05);
+
+    transition: .35s;
+
+}
+
+header.scrolled {
+
+    height: 75px;
+
+    background: #111111ee;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .45);
+
+}
+
+
+/*==========================================================
+
+                        LOGO
+
+==========================================================*/
+
+.logo {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+}
+
+.logo a {
+
+    text-decoration: none;
+
+}
+
+.logo h1 {
+
+    color: white;
+
+    font-size: 2rem;
+
+    letter-spacing: 2px;
+
+    transition: .3s;
+
+}
+
+.logo span {
+
+    color: var(--pink-light);
+
+    font-size: .8rem;
+
+    letter-spacing: 3px;
+
+    text-transform: uppercase;
+
+    margin-top: -5px;
+
+}
+
+.logo:hover h1 {
+
+    color: var(--pink);
+
+}
+
+
+/*==========================================================
+
+                    MENU
+
+==========================================================*/
+
+nav {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 35px;
+
+}
+
+nav a {
+
+    position: relative;
+
+    color: var(--gray);
+
+    font-size: .95rem;
+
+    font-weight: 500;
+
+    transition: .3s;
+
+}
+
+nav a:hover {
+
+    color: white;
+
+}
+
+nav a::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: -8px;
+
+    width: 0;
+
+    height: 2px;
+
+    background: var(--pink);
+
+    transition: .35s;
+
+}
+
+nav a:hover::after {
+
+    width: 100%;
+
+}
+
+nav a.active {
+
+    color: var(--pink-light);
+
+}
+
+nav a.active::after {
+
+    width: 100%;
+
+}
+
+
+/*==========================================================
+
+                MENU MOBILE
+
+==========================================================*/
+
+.menu-toggle {
+
+    width: 45px;
+
+    height: 45px;
+
+    display: none;
+
+    align-items: center;
+
+    justify-content: center;
+
+    cursor: pointer;
+
+    border-radius: 50%;
+
+    background: #ffffff10;
+
+    transition: .3s;
+
+}
+
+.menu-toggle:hover {
+
+    background: var(--pink);
+
+}
+
+.menu-toggle i {
+
+    color: white;
+
+    font-size: 1.3rem;
+
+}
+
+
+/*==========================================================
+
+                    HEADER BUTTONS
+
+==========================================================*/
+
+.header-actions {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+}
+
+.icon-btn {
+
+    width: 45px;
+
+    height: 45px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #ffffff08;
+
+    cursor: pointer;
+
+    transition: .3s;
+
+}
+
+.icon-btn:hover {
+
+    background: var(--pink);
+
+    transform: translateY(-3px);
+
+}
+
+.icon-btn i {
+
+    color: white;
+
+    font-size: 18px;
+
+}
+
+
+/*==========================================================
+
+                ESPAÇAMENTO DO HEADER
+
+==========================================================*/
+
+body {
+
+    padding-top: 90px;
+
+}
+
+/*==========================================================
+
+                    BANNER
+
+==========================================================*/
+
+.banner {
+
+    position: relative;
+
+    width: 100%;
+
+    min-height: 340px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(rgba(17, 17, 17, .82),
+            rgba(17, 17, 17, .90)),
+        url("../imagens/hero/banner-categoria.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+}
+
+.banner::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 500px;
+
+    height: 500px;
+
+    border-radius: 50%;
+
+    background: rgba(214, 51, 132, .08);
+
+    filter: blur(80px);
+
+    top: -200px;
+
+    left: -150px;
+
+}
+
+.banner::after {
+
+    content: "";
+
+    position: absolute;
+
+    width: 450px;
+
+    height: 450px;
+
+    border-radius: 50%;
+
+    background: rgba(240, 98, 176, .07);
+
+    filter: blur(100px);
+
+    bottom: -220px;
+
+    right: -150px;
+
+}
+
+.banner-content {
+
+    position: relative;
+
+    z-index: 2;
+
+    animation: fadeUp .8s ease;
+
+    padding: 40px;
+
+}
+
+.banner h1 {
+
+    font-size: 4rem;
+
+    color: white;
+
+    margin-bottom: 15px;
+
+}
+
+.banner p {
+
+    max-width: 700px;
+
+    margin: auto;
+
+    font-size: 1.05rem;
+
+    color: var(--gray);
+
+    line-height: 1.8;
+
+}
+
+
+/*==========================================================
+
+                FILTROS
+
+==========================================================*/
+
+.filters {
+
+    width: 90%;
+
+    max-width: 1400px;
+
+    margin: 60px auto;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+
+}
+
+
+/*==========================================================
+
+                PESQUISA
+
+==========================================================*/
+
+.filters input {
+
+    flex: 1;
+
+    min-width: 280px;
+
+    background: var(--background-card);
+
+    color: white;
+
+    border: 1px solid var(--border);
+
+    border-radius: 16px;
+
+    padding: 18px 22px;
+
+    font-size: .95rem;
+
+    transition: .3s;
+
+}
+
+.filters input::placeholder {
+
+    color: #888;
+
+}
+
+.filters input:focus {
+
+    border-color: var(--pink);
+
+    box-shadow: 0 0 0 4px rgba(214, 51, 132, .15);
+
+}
+
+
+/*==========================================================
+
+                SELECT
+
+==========================================================*/
+
+.filters select {
+
+    width: 220px;
+
+    background: var(--background-card);
+
+    color: white;
+
+    border: 1px solid var(--border);
+
+    border-radius: 16px;
+
+    padding: 18px;
+
+    cursor: pointer;
+
+    transition: .3s;
+
+}
+
+.filters select:focus {
+
+    border-color: var(--pink);
+
+    box-shadow: 0 0 0 4px rgba(214, 51, 132, .15);
+
+}
+
+.filters option {
+
+    background: #202020;
+
+}
+
+
+/*==========================================================
+
+                DIVISOR
+
+==========================================================*/
+
+.section-title {
+
+    text-align: center;
+
+    margin: 80px 0 50px;
+
+}
+
+.section-title h2 {
+
+    font-size: 2.8rem;
+
+    color: white;
+
+}
+
+.section-title p {
+
+    margin-top: 10px;
+
+    color: var(--gray);
+
+}
+
+
+/*==========================================================
+
+            EFEITOS
+
+==========================================================*/
+
+.filters input:hover,
+
+.filters select:hover {
+
+    border-color: var(--pink-light);
+
+}
+
+.banner-content h1 {
+
+    animation: fadeUp .9s ease;
+
+}
+
+.banner-content p {
+
+    animation: fade .9s ease;
+
+}
+
+/*==========================================================
+
+                    GRID DE PRODUTOS
+
+==========================================================*/
+
+.products {
+
+    width: 90%;
+
+    max-width: 1400px;
+
+    margin: 0 auto 100px;
+
+}
+
+#products-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    gap: 35px;
+
+    align-items: stretch;
+
+}
+
+
+/*==========================================================
+
+                    CARD
+
+==========================================================*/
+
+.product-card {
+
+    position: relative;
+
+    display: flex;
+
+    flex-direction: column;
+
+    overflow: hidden;
+
+    background: var(--background-card);
+
+    border: 1px solid var(--border);
+
+    border-radius: 25px;
+
+    transition: .4s;
+
+    box-shadow: var(--shadow);
+
+}
+
+.product-card:hover {
+
+    transform: translateY(-10px);
+
+    border-color: var(--pink);
+
+    box-shadow:
+
+        0 15px 40px rgba(214, 51, 132, .15);
+
+}
+
+
+/*==========================================================
+
+                    TAG
+
+==========================================================*/
+
+.tag {
+
+    position: absolute;
+
+    top: 18px;
+
+    left: 18px;
+
+    background: var(--pink);
+
+    color: white;
+
+    padding: 8px 16px;
+
+    border-radius: 30px;
+
+    font-size: .75rem;
+
+    font-weight: 600;
+
+    letter-spacing: 1px;
+
+    z-index: 20;
+
+}
+
+
+/*==========================================================
+
+                FAVORITO
+
+==========================================================*/
+
+.favorite-btn {
+
+    position: absolute;
+
+    top: 18px;
+
+    right: 18px;
+
+    width: 45px;
+
+    height: 45px;
+
+    border-radius: 50%;
+
+    background: rgba(0, 0, 0, .45);
+
+    backdrop-filter: blur(10px);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    transition: .3s;
+
+    z-index: 20;
+
+}
+
+.favorite-btn i {
+
+    color: white;
+
+    font-size: 18px;
+
+}
+
+.favorite-btn:hover {
+
+    background: var(--pink);
+
+    transform: scale(1.1);
+
+}
+
+.favorite-btn.active {
+
+    background: var(--pink);
+
+}
+
+
+/*==========================================================
+
+                    IMAGEM
+
+==========================================================*/
+
+.image-box {
+
+    width: 100%;
+
+    height: 330px;
+
+    overflow: hidden;
+
+    background: #151515;
+
+}
+
+.image-box img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: .6s;
+
+}
+
+.product-card:hover img {
+
+    transform: scale(1.08);
+
+}
+
+
+/*==========================================================
+
+                INFORMAÇÕES
+
+==========================================================*/
+
+.product-info {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+    padding: 28px;
+
+    flex: 1;
+
+}
+
+.product-info small {
+
+    color: var(--pink-light);
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+
+}
+
+.product-info h3 {
+
+    font-size: 2rem;
+
+    color: white;
+
+}
+
+.product-info p {
+
+    color: var(--gray);
+
+    font-size: .95rem;
+
+    line-height: 1.7;
+
+}
+
+
+/*==========================================================
+
+                    ESTRELAS
+
+==========================================================*/
+
+.stars {
+
+    display: flex;
+
+    gap: 5px;
+
+    color: #ffc107;
+
+    font-size: .9rem;
+
+}
+
+
+/*==========================================================
+
+                    PREÇO
+
+==========================================================*/
+
+.price {
+
+    margin-top: auto;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 15px;
+
+}
+
+.price span {
+
+    font-size: 1.4rem;
+
+    font-weight: 700;
+
+    color: white;
+
+}
+
+
+/*==========================================================
+
+                    BOTÃO
+
+==========================================================*/
+
+.btn-product {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 12px 24px;
+
+    border-radius: 12px;
+
+    background: var(--pink);
+
+    color: white;
+
+    font-weight: 600;
+
+    transition: .3s;
+
+}
+
+.btn-product:hover {
+
+    background: var(--pink-dark);
+
+    transform: translateY(-3px);
+
+}
+
+
+/*==========================================================
+
+            ANIMAÇÃO DO CARD
+
+==========================================================*/
+
+.product-card {
+
+    animation: fadeUp .8s ease both;
+
+}
+
+.product-card:nth-child(2) {
+
+    animation-delay: .1s;
+
+}
+
+.product-card:nth-child(3) {
+
+    animation-delay: .2s;
+
+}
+
+.product-card:nth-child(4) {
+
+    animation-delay: .3s;
+
+}
+
+.product-card:nth-child(5) {
+
+    animation-delay: .4s;
+
+}
+
+.product-card:nth-child(6) {
+
+    animation-delay: .5s;
+
+}
+
+.product-card:nth-child(7) {
+
+    animation-delay: .6s;
+
+}
+
+.product-card:nth-child(8) {
+
+    animation-delay: .7s;
+
+}
+
+
+/*==========================================================
+
+                EFEITOS
+
+==========================================================*/
+
+.product-card::before {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+
+        linear-gradient(transparent,
+
+            rgba(214, 51, 132, .03));
+
+    opacity: 0;
+
+    transition: .35s;
+
+}
+
+.product-card:hover::before {
+
+    opacity: 1;
+
+}
+
+/*==========================================================
+
+                PÁGINA DO PRODUTO
+
+==========================================================*/
+
+.product-page {
+
+    width: 90%;
+
+    max-width: 1400px;
+
+    margin: 70px auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 60px;
+
+    align-items: flex-start;
+
+}
+
+
+/*==========================================================
+
+                GALERIA
+
+==========================================================*/
+
+.product-gallery {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+
+}
+
+.product-gallery img {
+
+    width: 100%;
+
+    border-radius: 25px;
+
+    background: var(--background-card);
+
+    border: 1px solid var(--border);
+
+    transition: .4s;
+
+    cursor: zoom-in;
+
+}
+
+.product-gallery img:hover {
+
+    transform: scale(1.02);
+
+}
+
+
+/*==========================================================
+
+            MINIATURAS
+
+==========================================================*/
+
+.gallery-thumbs {
+
+    display: flex;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+
+}
+
+.gallery-thumbs img {
+
+    width: 90px;
+
+    height: 90px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    cursor: pointer;
+
+    border: 2px solid transparent;
+
+    transition: .3s;
+
+}
+
+.gallery-thumbs img:hover {
+
+    border-color: var(--pink);
+
+    transform: translateY(-5px);
+
+}
+
+.gallery-thumbs img.active {
+
+    border-color: var(--pink);
+
+}
+
+
+/*==========================================================
+
+            DETALHES
+
+==========================================================*/
+
+.product-details {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+
+}
+
+.product-details small {
+
+    color: var(--pink-light);
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+
+}
+
+.product-details h1 {
+
+    font-size: 3.2rem;
+
+    color: white;
+
+}
+
+.product-details h2 {
+
+    font-size: 2.2rem;
+
+    color: var(--pink-light);
+
+}
+
+.product-details p {
+
+    color: var(--gray);
+
+    line-height: 1.9;
+
+}
+
+
+/*==========================================================
+
+            INFO DO PRODUTO
+
+==========================================================*/
+
+.product-info {
+
+    display: grid;
+
+    gap: 15px;
+
+    margin: 20px 0;
+
+}
+
+.product-info p {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 14px 18px;
+
+    background: var(--background-card);
+
+    border-radius: 15px;
+
+    border: 1px solid var(--border);
+
+}
+
+.product-info strong {
+
+    color: white;
+
+}
+
+.product-info span {
+
+    color: var(--pink-light);
+
+}
+
+
+/*==========================================================
+
+                BOTÕES
+
+==========================================================*/
+
+.buttons {
+
+    display: flex;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+    margin-top: 25px;
+
+}
+
+.btn-primary {
+
+    flex: 1;
+
+    min-width: 220px;
+
+    padding: 18px;
+
+    text-align: center;
+
+    border-radius: 15px;
+
+    background: var(--pink);
+
+    color: white;
+
+    font-weight: 600;
+
+    transition: .3s;
+
+}
+
+.btn-primary:hover {
+
+    background: var(--pink-dark);
+
+    transform: translateY(-4px);
+
+}
+
+.btn-secondary {
+
+    flex: 1;
+
+    min-width: 220px;
+
+    padding: 18px;
+
+    text-align: center;
+
+    border-radius: 15px;
+
+    background: transparent;
+
+    border: 2px solid var(--pink);
+
+    color: var(--pink-light);
+
+    font-weight: 600;
+
+    transition: .3s;
+
+}
+
+.btn-secondary:hover {
+
+    background: var(--pink);
+
+    color: white;
+
+}
+
+
+/*==========================================================
+
+                ESTRELAS
+
+==========================================================*/
+
+#stars {
+
+    display: flex;
+
+    gap: 6px;
+
+    color: #ffc107;
+
+    font-size: 1.1rem;
+
+}
+
+
+/*==========================================================
+
+        PRODUTOS RELACIONADOS
+
+==========================================================*/
+
+.related {
+
+    width: 90%;
+
+    max-width: 1400px;
+
+    margin: 90px auto;
+
+}
+
+.related h2 {
+
+    text-align: center;
+
+    margin-bottom: 50px;
+
+    font-size: 2.6rem;
+
+}
+
+#relatedProducts {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+
+    gap: 30px;
+
+}
+
+.related-card {
+
+    background: var(--background-card);
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    border: 1px solid var(--border);
+
+    transition: .35s;
+
+}
+
+.related-card:hover {
+
+    transform: translateY(-8px);
+
+    border-color: var(--pink);
+
+}
+
+.related-card img {
+
+    height: 260px;
+
+    object-fit: cover;
+
+}
+
+.related-card h3 {
+
+    padding: 20px 20px 10px;
+
+    color: white;
+
+    font-size: 1.8rem;
+
+}
+
+.related-card p {
+
+    padding: 0 20px;
+
+    color: var(--pink-light);
+
+    font-weight: 600;
+
+}
+
+.related-card a {
+
+    display: block;
+
+    margin: 25px 20px;
+
+    text-align: center;
+
+}
+
+/*==========================================================
+
+                    NEWSLETTER
+
+==========================================================*/
+
+.newsletter {
+
+    width: 90%;
+
+    max-width: 1400px;
+
+    margin: 100px auto;
+
+    padding: 60px;
+
+    background: linear-gradient(135deg,
+            #1c1c1c,
+            #2b1624);
+
+    border: 1px solid var(--border);
+
+    border-radius: 30px;
+
+    text-align: center;
+
+    overflow: hidden;
+
+    position: relative;
+
+}
+
+.newsletter::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 350px;
+
+    height: 350px;
+
+    border-radius: 50%;
+
+    background: rgba(214, 51, 132, .12);
+
+    filter: blur(80px);
+
+    top: -120px;
+
+    left: -120px;
+
+}
+
+.newsletter::after {
+
+    content: "";
+
+    position: absolute;
+
+    width: 300px;
+
+    height: 300px;
+
+    border-radius: 50%;
+
+    background: rgba(240, 98, 176, .08);
+
+    filter: blur(90px);
+
+    bottom: -100px;
+
+    right: -100px;
+
+}
+
+.newsletter>* {
+
+    position: relative;
+
+    z-index: 2;
+
+}
+
+.newsletter h2 {
+
+    font-size: 3rem;
+
+    color: white;
+
+    margin-bottom: 15px;
+
+}
+
+.newsletter p {
+
+    max-width: 650px;
+
+    margin: 0 auto 35px;
+
+    color: var(--gray);
+
+}
+
+.newsletter form {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+
+}
+
+.newsletter input {
+
+    flex: 1;
+
+    min-width: 280px;
+
+    max-width: 500px;
+
+    padding: 18px 22px;
+
+    border-radius: 15px;
+
+    background: #2b2b2b;
+
+    color: white;
+
+    border: 1px solid var(--border);
+
+}
+
+.newsletter input:focus {
+
+    border-color: var(--pink);
+
+}
+
+.newsletter button {
+
+    padding: 18px 35px;
+
+    border-radius: 15px;
+
+    background: var(--pink);
+
+    color: white;
+
+    font-weight: 600;
+
+}
+
+.newsletter button:hover {
+
+    background: var(--pink-dark);
+
+    transform: translateY(-3px);
+
+}
+
+
+/*==========================================================
+
+                        FOOTER
+
+==========================================================*/
+
+footer {
+
+    background: #0d0d0d;
+
+    border-top: 1px solid var(--border);
+
+    padding: 70px 8% 30px;
+
+}
+
+.footer-content {
+
+    display: grid;
+
+    grid-template-columns: 2fr 1fr 1fr;
+
+    gap: 50px;
+
+}
+
+.footer-brand h2 {
+
+    font-size: 2.5rem;
+
+    color: white;
+
+}
+
+.footer-brand span {
+
+    display: block;
+
+    color: var(--pink-light);
+
+    margin-top: 8px;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+
+    font-size: .85rem;
+
+}
+
+.footer-brand p {
+
+    margin-top: 20px;
+
+    max-width: 450px;
+
+}
+
+.footer-links h3,
+
+.footer-contact h3 {
+
+    color: white;
+
+    margin-bottom: 20px;
+
+    font-size: 1.5rem;
+
+}
+
+.footer-links ul,
+
+.footer-contact ul {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+}
+
+.footer-links a {
+
+    color: var(--gray);
+
+    transition: .3s;
+
+}
+
+.footer-links a:hover {
+
+    color: var(--pink-light);
+
+    padding-left: 8px;
+
+}
+
+.footer-contact li {
+
+    color: var(--gray);
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+.footer-contact i {
+
+    color: var(--pink);
+
+}
+
+
+/*==========================================================
+
+                REDES SOCIAIS
+
+==========================================================*/
+
+.social {
+
+    display: flex;
+
+    gap: 15px;
+
+    margin-top: 25px;
+
+}
+
+.social a {
+
+    width: 45px;
+
+    height: 45px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #1b1b1b;
+
+    color: white;
+
+    transition: .35s;
+
+}
+
+.social a:hover {
+
+    background: var(--pink);
+
+    transform: translateY(-5px);
+
+}
+
+
+/*==========================================================
+
+                COPYRIGHT
+
+==========================================================*/
+
+.footer-bottom {
+
+    margin-top: 50px;
+
+    padding-top: 25px;
+
+    border-top: 1px solid var(--border);
+
+    text-align: center;
+
+}
+
+.footer-bottom p {
+
+    color: #888;
+
+    font-size: .9rem;
 
 }

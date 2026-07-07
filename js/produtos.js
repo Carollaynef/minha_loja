@@ -460,3 +460,31 @@ function alternarFavorito(id) {
     criarCards(produtosFiltrados);
 
 }
+
+/*========================================================
+
+            ANIMAÇÃO DO CORAÇÃO
+
+========================================================*/
+
+document.addEventListener(
+
+    "click",
+
+    function (e) {
+
+        const botao = e.target.closest(".favorite-btn");
+
+        if (!botao) return;
+
+        botao.classList.add("pulse");
+
+        setTimeout(() => {
+
+            botao.classList.remove("pulse");
+
+        }, 300);
+
+    }
+
+);
