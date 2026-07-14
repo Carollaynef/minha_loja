@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -63,15 +64,15 @@
 
         <nav id="menu">
 
-            <a href="#" class="active">Início</a>
+            <a href="index.php" class="active">Início</a>
 
-            <a href="pages/pulseiras.html">Pulseiras</a>
+            <a href="pages/pulseiras.php">Pulseiras</a>
 
-            <a href="pages/colares.html">Colares</a>
+            <a href="pages/colares.php">Colares</a>
 
-            <a href="pages/tercos.html">Terços</a>
+            <a href="pages/tercos.php">Terços</a>
 
-            <a href="pages/phone-straps.html">Phone Straps</a>
+            <a href="pages/phone-straps.php">Phone Straps</a>
 
         </nav>
 
@@ -156,7 +157,7 @@
 
         <div class="categorias-grid">
 
-            <a href="pages/pulseiras.html" class="categoria">
+            <a href="pages/pulseiras.php" class="categoria">
 
                 <img src="imagens/pulseiras/rosas.jpg">
 
@@ -170,7 +171,7 @@
 
             </a>
 
-            <a href="pages/colares.html" class="categoria">
+            <a href="pages/colares.php" class="categoria">
 
                 <img src="imagens/colares/insp.jpg">
 
@@ -184,7 +185,7 @@
 
             </a>
 
-            <a href="pages/tercos.html" class="categoria">
+            <a href="pages/tercos.php" class="categoria">
 
                 <img src="imagens/tercos/rosa.jpg">
 
@@ -198,7 +199,7 @@
 
             </a>
 
-            <a href="pages/phone-straps.html" class="categoria">
+            <a href="pages/phone-straps.php" class="categoria">
 
                 <img src="imagens/phone-straps/rosa.jpg">
 

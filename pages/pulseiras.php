@@ -27,13 +27,13 @@
 
 </head>
 
-<body data-category="tercos">
+<body data-category="pulseiras">
 
     <header id="header">
 
         <div class="logo">
 
-            <a href="../index.html">
+            <a href="../index.php">
 
                 <h1>BC Studio</h1>
 
@@ -45,27 +45,27 @@
 
         <nav id="menu">
 
-            <a href="../index.html">Início</a>
+            <a href="../index.php">Início</a>
 
-            <a  href="pulseiras.html">
+            <a class="active" href="pulseiras.php">
 
                 Pulseiras
 
             </a>
 
-            <a href="colares.html">
+            <a href="colares.php">
 
                 Colares
 
             </a>
 
-            <a class="active" href="tercos.html">
+            <a href="tercos.php">
 
                 Terços
 
             </a>
 
-            <a href="phone-straps.html">
+            <a href="phone-straps.php">
 
                 Phone Straps
 
@@ -79,11 +79,11 @@
 
         <div class="banner-content">
 
-            <h1>Terços</h1>
+            <h1>Pulseiras</h1>
 
             <p>
 
-                Fé para todos os momentos.
+                Delicadeza para todos os momentos.
 
             </p>
 

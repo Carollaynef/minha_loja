@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -27,13 +28,13 @@
 
 </head>
 
-<body data-category="phone-straps">
+<body data-category="colares">
 
     <header id="header">
 
         <div class="logo">
 
-            <a href="../index.html">
+            <a href="../index.php">
 
                 <h1>BC Studio</h1>
 
@@ -45,27 +46,27 @@
 
         <nav id="menu">
 
-            <a href="../index.html">Início</a>
+            <a href="../index.php">Início</a>
 
-            <a  href="pulseiras.html">
+            <a  href="pulseiras.php">
 
                 Pulseiras
 
             </a>
 
-            <a href="colares.html">
+            <a class="active" href="colares.php">
 
                 Colares
 
             </a>
 
-            <a href="tercos.html">
+            <a href="tercos.php">
 
                 Terços
 
             </a>
 
-            <a class="active" href="phone-straps.html">
+            <a href="phone-straps.php">
 
                 Phone Straps
 
@@ -79,7 +80,7 @@
 
         <div class="banner-content">
 
-            <h1>Phone-straps</h1>
+            <h1>Colares</h1>
 
             <p>
 

@@ -163,7 +163,7 @@ function criarCard(produto) {
 
                 <a
 
-                    href="produto.html?id=${produto.id}"
+                    href="produto.php?id=${produto.id}"
 
                     class="btn-product">
 
