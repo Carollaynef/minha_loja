@@ -1,3 +1,4 @@
+
 [
     {
         "id": 1,
@@ -70,10 +71,10 @@
     {
         "id": 5,
         "categoria": "pulseiras",
-        "nome": "Aurora",
-        "descricao": "Pulseira delicada com cristais coloridos.",
-        "preco": 54.90,
-        "imagem": "../imagens/pulseiras/pulseira5.jpg",
+        "nome": "Praiana Azul",
+        "descricao": "Pulseira delicada com vibe praiana",
+        "preco": 7.00,
+        "imagem": "../imagens/pulseiras/azul.jpg",
         "galeria": [
             "../imagens/pulseiras/pulseira5.jpg"
         ],
@@ -328,5 +329,88 @@
         "avaliacao": 5,
         "novo": true,
         "codigo": "PS005"
+    },
+
+
+
+    {
+        "id": 21,
+        "categoria": "tercos",
+        "nome": "Terço N.S Aparecida",
+        "descricao": "Terço artesanal inspirado em N.S Aparecida.",
+        "preco": 31.99,
+        "imagem": "../imagens/tercos/azul_aparecida.jpg",
+        "galeria": [
+            "../imagens/tercos/azul_aparecida.jpg"
+        ],
+        "material": "Cristais",
+        "cor": "Azul escuro",
+        "avaliacao": 5,
+        "novo": false,
+        "codigo": "T006"
+    },
+    {
+        "id": 22,
+        "categoria": "tercos",
+        "nome": "Nossa Senhora Aparecida ver. Dourado",
+        "descricao": "Terço com medalha de N.S. Aparecida",
+        "preco": 33.00,
+        "imagem": "../imagens/tercos/azul2.jpg",
+        "galeria": [
+            "../imagens/tercos/azul2.jpg"
+        ],
+        "material": "Cristais, entre-meio, crucifixo",
+        "cor": "Dourado, Azul",
+        "avaliacao": 5,
+        "novo": false,
+        "codigo": "T007"
+    },
+    {
+        "id": 23,
+        "categoria": "tercos",
+        "nome": "N.S de Fátima",
+        "descricao": "Terço clássico inspirado em N.S de Fátima.",
+        "preco": 36.50,
+        "imagem": "../imagens/tercos/azul3.jpg",
+        "galeria": [
+            "../imagens/tercos/azul3.jpg"
+        ],
+        "material": "Pérolas emborrachadas, entre-meio, crucifixo",
+        "cor": "Azul claro e",
+        "avaliacao": 5,
+        "novo": false,
+        "codigo": "T008"
+    },
+    {
+        "id": 24,
+        "categoria": "tercos",
+        "nome": "Lux",
+        "descricao": "Terço premium artesanal.",
+        "preco": 109.90,
+        "imagem": "../imagens/tercos/terco4.jpg",
+        "galeria": [
+            "../imagens/tercos/terco4.jpg"
+        ],
+        "material": "Cristais",
+        "cor": "Transparente",
+        "avaliacao": 5,
+        "novo": false,
+        "codigo": "T009"
+    },
+    {
+        "id": 25,
+        "categoria": "tercos",
+        "nome": "Elegance",
+        "descricao": "Terço sofisticado para presentear.",
+        "preco": 99.90,
+        "imagem": "../imagens/tercos/terco5.jpg",
+        "galeria": [
+            "../imagens/tercos/terco5.jpg"
+        ],
+        "material": "Cristais",
+        "cor": "Rosé",
+        "avaliacao": 5,
+        "novo": true,
+        "codigo": "T010"
     }
 ]
