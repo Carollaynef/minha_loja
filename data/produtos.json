@@ -76,7 +76,7 @@
         "preco": 7.00,
         "imagem": "../imagens/pulseiras/azul.jpg",
         "galeria": [
-            "../imagens/pulseiras/pulseira5.jpg"
+            "../imagens/pulseiras/azul.jpg"
         ],
         "material": "Cristais",
         "cor": "Colorido",
@@ -173,31 +173,31 @@
     {
         "id": 11,
         "categoria": "tercos",
-        "nome": "Terço Rosé",
-        "descricao": "Terço artesanal em tons rosé.",
-        "preco": 79.90,
-        "imagem": "../imagens/tercos/terco1.jpg",
+        "nome": "Terço Rosé de N.S",
+        "descricao": "Terço artesanal em tons rosé delicado.",
+        "preco": 37.00,
+        "imagem": "../imagens/tercos/rosa2.jpg",
         "galeria": [
-            "../imagens/tercos/terco1.jpg"
+            "../imagens/tercos/rosa2.jpg"
         ],
-        "material": "Cristais",
-        "cor": "Rosé",
+        "material": "Pérolas emborrachadas, entre-meio, crucifixo",
+        "cor": "Rosé e Prata",
         "avaliacao": 5,
-        "novo": true,
+        "novo": false,
         "codigo": "T001"
     },
     {
         "id": 12,
         "categoria": "tercos",
-        "nome": "Nossa Senhora",
-        "descricao": "Terço com medalha de Nossa Senhora.",
-        "preco": 94.90,
-        "imagem": "../imagens/tercos/terco2.jpg",
+        "nome": "Terço inspirado em São Bento",
+        "descricao": "Símbolo de fé, devoção e proteção diária. Com contas cinzas elegantes e a poderosa Medalha de São Bento como entremeio, este terço artesanal une beleza e espiritualidade",
+        "preco": 23.50,
+        "imagem": "../imagens/tercos/Bento.jpg",
         "galeria": [
-            "../imagens/tercos/terco2.jpg"
+            "../imagens/tercos/Bento.jpg"
         ],
-        "material": "Metal",
-        "cor": "Prata",
+        "material": "Pérolas metalizadas, entre-meio , crucifixo",
+        "cor": "Cinza escuro e Ouro envelhecido",
         "avaliacao": 5,
         "novo": false,
         "codigo": "T002"
@@ -205,49 +205,49 @@
     {
         "id": 13,
         "categoria": "tercos",
-        "nome": "Pérola",
-        "descricao": "Terço clássico com pérolas.",
-        "preco": 89.90,
-        "imagem": "../imagens/tercos/terco3.jpg",
+        "nome": "Terço Luz Divina",
+        "descricao": "Com grandes contas de cristais transparentes que refletem a luz e detalhes dourados reluzentes, este terço é uma verdadeira joia de devoção. Uma peça deslumbrante e sofisticada, perfeita para momentos especiais ou para um presente inesquecível.",
+        "preco": 48.99,
+        "imagem": "../imagens/tercos/incolor.jpg",
         "galeria": [
-            "../imagens/tercos/terco3.jpg"
+            "../imagens/tercos/incolor.jpg"
         ],
-        "material": "Pérolas",
-        "cor": "Branco",
-        "avaliacao": 4.9,
+        "material": "Cristais, entre-meio , crucifixo",
+        "cor": "Incolor Monocromado",
+        "avaliacao": 5,
         "novo": true,
         "codigo": "T003"
     },
     {
         "id": 14,
         "categoria": "tercos",
-        "nome": "Lux",
-        "descricao": "Terço premium artesanal.",
-        "preco": 109.90,
-        "imagem": "../imagens/tercos/terco4.jpg",
+        "nome": "Terço Nossa Senhora da Graça",
+        "descricao": "Combinando o brilho suave das pérolas incolores com o entremeio de Nossa Senhora Aparecida, este terço transborda paz, pureza e devoção. Um clássico artesanal indispensável para suas orações ou para abençoar quem você ama.",
+        "preco": 21.99,
+        "imagem": "../imagens/tercos/incolor2.jpg",
         "galeria": [
-            "../imagens/tercos/terco4.jpg"
+            "../imagens/tercos/incolor2.jpg"
         ],
-        "material": "Cristais",
-        "cor": "Transparente",
-        "avaliacao": 5,
+        "material": "Pérolas, entre-meio, crucifixo",
+        "cor": "Transparente e Ouro envelhecido",
+        "avaliacao": 3.5,
         "novo": false,
         "codigo": "T004"
     },
     {
         "id": 15,
         "categoria": "tercos",
-        "nome": "Elegance",
-        "descricao": "Terço sofisticado para presentear.",
-        "preco": 99.90,
-        "imagem": "../imagens/tercos/terco5.jpg",
+        "nome": "Terço Aurora",
+        "descricao": "Feito com cristais rosa transparentes que refletem a luz de forma única, este terço é ultra delicado e feminino. Uma peça charmosa, perfeita para acompanhar as jovens em sua caminhada de fé ou para presentear uma garota especial com muito carinho.",
+        "preco": 36.50,
+        "imagem": "../imagens/tercos/rosa.jpg",
         "galeria": [
-            "../imagens/tercos/terco5.jpg"
+            "../imagens/tercos/rosa.jpg"
         ],
-        "material": "Cristais",
-        "cor": "Rosé",
+        "material": "Cristais, entre-meio , crucifixo",
+        "cor": "Rosa Transparente e Prata",
         "avaliacao": 5,
-        "novo": true,
+        "novo": false,
         "codigo": "T005"
     },
     {
@@ -376,7 +376,7 @@
             "../imagens/tercos/azul3.jpg"
         ],
         "material": "Pérolas emborrachadas, entre-meio, crucifixo",
-        "cor": "Azul claro e",
+        "cor": "Azul claro e Prata",
         "avaliacao": 5,
         "novo": false,
         "codigo": "T008"
@@ -384,15 +384,15 @@
     {
         "id": 24,
         "categoria": "tercos",
-        "nome": "Lux",
-        "descricao": "Terço premium artesanal.",
-        "preco": 109.90,
-        "imagem": "../imagens/tercos/terco4.jpg",
+        "nome": "Terço Serene",
+        "descricao": "A serenidade da fé em um brilho único.Combinando o tom suave e refrescante dos cristais verde-água com a elegância dos detalhes em prata, este terço transmite paz e leveza. Uma peça delicada, moderna e cheia de luz para acompanhar suas orações ou presentear com sofisticação.",
+        "preco": 35.50,
+        "imagem": "../imagens/tercos/verde_agua2.jpg",
         "galeria": [
-            "../imagens/tercos/terco4.jpg"
+            "../imagens/tercos/verde_agua2.jpg"
         ],
-        "material": "Cristais",
-        "cor": "Transparente",
+        "material": "Cristais, entre-meio, crucifixo",
+        "cor": "Verde-água e Prata",
         "avaliacao": 5,
         "novo": false,
         "codigo": "T009"
@@ -400,17 +400,49 @@
     {
         "id": 25,
         "categoria": "tercos",
-        "nome": "Elegance",
-        "descricao": "Terço sofisticado para presentear.",
-        "preco": 99.90,
-        "imagem": "../imagens/tercos/terco5.jpg",
+        "nome": "Terço Sangue de Cristo",
+        "descricao": "Com contas de cristal vermelho intenso e detalhes dourados reluzentes, este terço foi feito com peças delicadas e selecionadas rigorosamente à mão. Uma peça imponente e de profunda devoção, que honra o maior amor do mundo. Perfeito para seus momentos de oração ou para um presente com significado eterno.",
+        "preco": 45.99,
+        "imagem": "../imagens/tercos/vermelho.jpg",
         "galeria": [
-            "../imagens/tercos/terco5.jpg"
+            "../imagens/tercos/vermelho.jpg"
         ],
-        "material": "Cristais",
-        "cor": "Rosé",
+        "material": "Cristais, entre-meio, crucifixo",
+        "cor": "Vermelho e Dourado",
         "avaliacao": 5,
         "novo": true,
         "codigo": "T010"
+    },
+    {
+        "id": 26,
+        "categoria": "tercos",
+        "nome": "Pulseira Terço Black & Silver",
+        "descricao": "Prática e moderna, esta pulseira terço combina contas pretas sofisticadas com a elegância dos detalhes em prata. Uma peça versátil e unissex, ideal para te acompanhar no dia a dia e manter a devoção sempre ao alcance das mãos.",
+        "preco": 13.50,
+        "imagem": "../imagens/tercos/pretinha.jpg",
+        "galeria": [
+            "../imagens/tercos/pretinha.jpg"
+        ],
+        "material": "Cristais, entre-meio, crucifixo, fecho",
+        "cor": "Preta e Prata",
+        "avaliacao": 5,
+        "novo": false,
+        "codigo": "T011"
+    },
+    {
+        "id": 27,
+        "categoria": "tercos",
+        "nome": "Pulseira Terço Blue Sky",
+        "descricao": "Com contas em um tom azul-claro suave e delicado, esta pulseira terço é perfeita para trazer serenidade ao seu dia a dia. Uma peça charmosa e discreta, ideal para demonstrar sua fé com sutileza ou para presentear com carinho.",
+        "preco": 15.00,
+        "imagem": "../imagens/tercos/azulzinho.jpg",
+        "galeria": [
+            "../imagens/tercos/azulzinho.jpg"
+        ],
+        "material": "Cristais, entre-meio, crucifixo, fecho",
+        "cor": "Azul claro e Dourado",
+        "avaliacao": 5,
+        "novo": true,
+        "codigo": "T012"
     }
 ]
